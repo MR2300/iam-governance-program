@@ -1,0 +1,27 @@
+UserID,FullName,Department,JobTitle,RoleID,Manager,StartDate,AccountStatus
+F001,Sarah Chen,Finance,CFO,R01,,2019-03-01,Active
+F002,James Okafor,Finance,Finance Manager,R02,F001,2020-06-15,Active
+F003,Priya Nandakumar,Finance,Finance Analyst,R03,F002,2022-01-10,Active
+F004,Liam Tremblay,Finance,Finance Analyst,R03,F002,2021-09-01,Active
+F005,Aisha Bello,Finance,AP Clerk,R04,F002,2023-02-20,Active
+F006,David Kim,Finance,AP Clerk,R04,F002,2022-11-05,Active
+F007,Maria Santos,Finance,Finance Analyst,R03,F002,2020-08-12,Active
+P001,Robert Hayes,Procurement,Procurement Director,R05,,2018-04-22,Active
+P002,Nora Fitzgerald,Procurement,Procurement Manager,R06,P001,2019-10-01,Active
+P003,Karim El-Sayed,Procurement,Procurement Analyst,R07,P002,2022-05-16,Active
+P004,Wei Zhang,Procurement,Procurement Analyst,R07,P002,2023-03-09,Active
+P005,Olivia Martin,Procurement,Vendor Manager,R08,P002,2021-07-19,Active
+P006,Tomas Rivera,Procurement,Procurement Analyst,R07,P002,2022-09-27,Active
+I001,Jennifer Wu,IT,IT Director,R09,,2017-01-15,Active
+I002,Marcus Johnson,IT,IT Manager,R10,I001,2019-04-08,Active
+I003,Fatima Haidari,IT,IT Security Engineer (IAM Admin),R11,I002,2021-02-22,Active
+I004,Daniel O'Brien,IT,IT Engineer,R12,I002,2022-06-13,Active
+I005,Grace Park,IT,IT Support,R13,I002,2023-01-09,Active
+I006,Samuel Adeyemi,IT,IT Support,R13,I002,2023-08-21,Active
+I007,Chloe Bergeron,IT,IT Engineer,R12,I002,2021-11-30,Active
+H001,Patricia Lemoine,HR,HR Director,R14,,2018-09-03,Active
+H002,Anthony Russo,HR,HR Manager,R15,H001,2020-02-17,Active
+H003,Mei Lin,HR,HR Coordinator,R16,H002,2022-04-04,Active
+H004,Yusuf Demir,HR,HR Coordinator,R16,H002,2023-05-15,Active
+H005,Isabella Conti,HR,HR Coordinator,R16,H002,2022-10-10,Active
+H006,Brian Walsh,HR,HR Manager,R15,H001,2019-12-01,Active

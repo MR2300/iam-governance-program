@@ -1,0 +1,5 @@
+RemediationID,Date,UserID,FullName,Department,System,Entitlement,CertificationRef,RevokedBy,Justification
+REM-001,2026-06-17,F007,Maria Santos,Finance,ProcureApp,Create PO Requisition,CERT-014,James Okafor,Outside Finance Analyst baseline. Informal cross-dept access never approved.
+REM-002,2026-06-17,P005,Olivia Martin,Procurement,FinanceERP,Approve Payment,CERT-028,Sarah Chen,Critical SoD-01 violation. Vendor Manager + Approve Payment = fraud loop.
+REM-003,2026-06-17,I005,Grace Park,IT,Keycloak Admin Console,Manage Roles & Permissions,CERT-047,Jennifer Wu,IT Support role has no IAM admin business need. Temporary access never removed.
+REM-004,2026-06-17,H003,Mei Lin,HR,FinanceERP,Approve Payment,CERT-062,Patricia Lemoine,SoD-04 violation. HR Coordinator outside Finance dept. No business justification.

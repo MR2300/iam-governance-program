@@ -1,0 +1,5 @@
+RuleID,RuleName,System_A,Entitlement_A,System_B,Entitlement_B,RiskLevel,RiskDescription
+SOD-01,Fictitious Vendor Fraud,ProcureApp,Create Vendor,FinanceERP,Approve Payment,Critical,A single person can create a fictitious vendor and approve payment to it — bypasses all payment controls
+SOD-02,PO Self-Approval,ProcureApp,Create PO Requisition,ProcureApp,Approve PO,High,A single person can create and approve their own purchase orders — no independent review
+SOD-03,IAM Admin + Financial Approval,Keycloak Admin Console,Manage Roles & Permissions,FinanceERP,Approve Payment,Critical,An IAM admin can grant themselves financial access and then approve their own payments
+SOD-04,Cross-Department Finance Access,FinanceERP,Approve Payment,,<any>,High,Approve Payment held by anyone outside the Finance department without a documented exception

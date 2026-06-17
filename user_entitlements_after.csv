@@ -1,0 +1,66 @@
+UserID,FullName,Department,RoleID,System,Entitlement,AssignedDate,LastUsedDate
+F001,Sarah Chen,Finance,R01,FinanceERP,View Financial Reports,2019-03-01,2026-06-15
+F001,Sarah Chen,Finance,R01,FinanceERP,Approve Payment,2019-03-01,2026-06-16
+F002,James Okafor,Finance,R02,FinanceERP,View Financial Reports,2020-06-15,2026-06-14
+F002,James Okafor,Finance,R02,FinanceERP,Process AP Transactions,2020-06-15,2026-06-12
+F002,James Okafor,Finance,R02,FinanceERP,Approve Payment,2020-06-15,2026-06-16
+F003,Priya Nandakumar,Finance,R03,FinanceERP,View Financial Reports,2022-01-10,2026-06-10
+F003,Priya Nandakumar,Finance,R03,FinanceERP,Process AP Transactions,2022-01-10,2026-06-11
+F004,Liam Tremblay,Finance,R03,FinanceERP,View Financial Reports,2021-09-01,2026-06-09
+F004,Liam Tremblay,Finance,R03,FinanceERP,Process AP Transactions,2021-09-01,2026-06-13
+F005,Aisha Bello,Finance,R04,FinanceERP,Process AP Transactions,2023-02-20,2026-06-15
+F006,David Kim,Finance,R04,FinanceERP,Process AP Transactions,2022-11-05,2026-06-14
+F007,Maria Santos,Finance,R03,FinanceERP,View Financial Reports,2020-08-12,2026-06-08
+F007,Maria Santos,Finance,R03,FinanceERP,Process AP Transactions,2020-08-12,2026-06-09
+P001,Robert Hayes,Procurement,R05,ProcureApp,View Vendor/PO Data,2018-04-22,2026-06-15
+P001,Robert Hayes,Procurement,R05,ProcureApp,Create PO Requisition,2018-04-22,2026-06-12
+P001,Robert Hayes,Procurement,R05,ProcureApp,Create Vendor,2018-04-22,2026-06-10
+P001,Robert Hayes,Procurement,R05,ProcureApp,Approve PO,2018-04-22,2026-06-16
+P002,Nora Fitzgerald,Procurement,R06,ProcureApp,View Vendor/PO Data,2019-10-01,2026-06-14
+P002,Nora Fitzgerald,Procurement,R06,ProcureApp,Create PO Requisition,2019-10-01,2026-06-11
+P002,Nora Fitzgerald,Procurement,R06,ProcureApp,Approve PO,2019-10-01,2026-06-15
+P003,Karim El-Sayed,Procurement,R07,ProcureApp,View Vendor/PO Data,2022-05-16,2026-06-09
+P003,Karim El-Sayed,Procurement,R07,ProcureApp,Create PO Requisition,2022-05-16,2026-06-10
+P004,Wei Zhang,Procurement,R07,ProcureApp,View Vendor/PO Data,2023-03-09,2026-06-08
+P004,Wei Zhang,Procurement,R07,ProcureApp,Create PO Requisition,2023-03-09,2026-06-13
+P005,Olivia Martin,Procurement,R08,ProcureApp,View Vendor/PO Data,2021-07-19,2026-06-12
+P005,Olivia Martin,Procurement,R08,ProcureApp,Create Vendor,2021-07-19,2026-06-15
+P006,Tomas Rivera,Procurement,R07,ProcureApp,View Vendor/PO Data,2022-09-27,2026-06-11
+P006,Tomas Rivera,Procurement,R07,ProcureApp,Create PO Requisition,2022-09-27,2026-06-12
+I001,Jennifer Wu,IT,R09,ITSM,View Tickets,2017-01-15,2026-06-15
+I001,Jennifer Wu,IT,R09,ITSM,Manage Tickets,2017-01-15,2026-06-10
+I001,Jennifer Wu,IT,R09,ITSM,Approve Change Request,2017-01-15,2026-06-16
+I001,Jennifer Wu,IT,R09,Keycloak Admin Console,Manage Roles & Permissions,2017-01-15,2026-06-16
+I002,Marcus Johnson,IT,R10,ITSM,View Tickets,2019-04-08,2026-06-14
+I002,Marcus Johnson,IT,R10,ITSM,Manage Tickets,2019-04-08,2026-06-13
+I002,Marcus Johnson,IT,R10,ITSM,Approve Change Request,2019-04-08,2026-06-15
+I002,Marcus Johnson,IT,R10,Keycloak Admin Console,Manage Users/Groups,2019-04-08,2026-06-12
+I003,Fatima Haidari,IT,R11,Keycloak Admin Console,View Realm,2021-02-22,2026-06-16
+I003,Fatima Haidari,IT,R11,Keycloak Admin Console,Manage Users/Groups,2021-02-22,2026-06-16
+I003,Fatima Haidari,IT,R11,Keycloak Admin Console,Manage Roles & Permissions,2021-02-22,2026-06-15
+I004,Daniel O'Brien,IT,R12,ITSM,View Tickets,2022-06-13,2026-06-09
+I004,Daniel O'Brien,IT,R12,ITSM,Manage Tickets,2022-06-13,2026-06-11
+I004,Daniel O'Brien,IT,R12,Keycloak Admin Console,View Realm,2022-06-13,2026-06-08
+I005,Grace Park,IT,R13,ITSM,View Tickets,2023-01-09,2026-06-14
+I005,Grace Park,IT,R13,ITSM,Manage Tickets,2023-01-09,2026-06-12
+I006,Samuel Adeyemi,IT,R13,ITSM,View Tickets,2023-08-21,2026-06-13
+I006,Samuel Adeyemi,IT,R13,ITSM,Manage Tickets,2023-08-21,2026-06-14
+I007,Chloe Bergeron,IT,R12,ITSM,View Tickets,2021-11-30,2026-06-10
+I007,Chloe Bergeron,IT,R12,ITSM,Manage Tickets,2021-11-30,2026-06-12
+I007,Chloe Bergeron,IT,R12,Keycloak Admin Console,View Realm,2021-11-30,2026-06-11
+H001,Patricia Lemoine,HR,R14,HRIS,View Employee Records,2018-09-03,2026-06-15
+H001,Patricia Lemoine,HR,R14,HRIS,Edit Employee Records,2018-09-03,2026-06-14
+H001,Patricia Lemoine,HR,R14,HRIS,Approve Payroll Change,2018-09-03,2026-06-16
+H001,Patricia Lemoine,HR,R14,HRIS,Admin HRIS,2018-09-03,2026-06-13
+H002,Anthony Russo,HR,R15,HRIS,View Employee Records,2020-02-17,2026-06-12
+H002,Anthony Russo,HR,R15,HRIS,Edit Employee Records,2020-02-17,2026-06-11
+H002,Anthony Russo,HR,R15,HRIS,Approve Payroll Change,2020-02-17,2026-06-15
+H003,Mei Lin,HR,R16,HRIS,View Employee Records,2022-04-04,2026-06-09
+H003,Mei Lin,HR,R16,HRIS,Edit Employee Records,2022-04-04,2026-06-10
+H004,Yusuf Demir,HR,R16,HRIS,View Employee Records,2023-05-15,2026-06-08
+H004,Yusuf Demir,HR,R16,HRIS,Edit Employee Records,2023-05-15,2026-06-09
+H005,Isabella Conti,HR,R16,HRIS,View Employee Records,2022-10-10,2026-06-10
+H005,Isabella Conti,HR,R16,HRIS,Edit Employee Records,2022-10-10,2026-06-12
+H006,Brian Walsh,HR,R15,HRIS,View Employee Records,2019-12-01,2026-06-14
+H006,Brian Walsh,HR,R15,HRIS,Edit Employee Records,2019-12-01,2026-06-13
+H006,Brian Walsh,HR,R15,HRIS,Approve Payroll Change,2019-12-01,2026-06-15

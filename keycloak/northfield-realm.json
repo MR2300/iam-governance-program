@@ -1,0 +1,59 @@
+{
+  "realm": "northfield",
+  "displayName": "Northfield Industries",
+  "enabled": true,
+  "roles": {
+    "realm": [
+      { "name": "CFO",                            "description": "Oversees finance department and holds final payment approval authority" },
+      { "name": "Finance Manager",                "description": "Manages finance operations team and approves payments up to policy threshold" },
+      { "name": "Finance Analyst",                "description": "Performs financial reporting, reconciliation, and AP processing support" },
+      { "name": "AP Clerk",                       "description": "Processes day-to-day accounts payable transactions" },
+      { "name": "Procurement Director",           "description": "Oversees procurement strategy, vendor relationships, and PO approval" },
+      { "name": "Procurement Manager",            "description": "Manages procurement team and approves purchase orders" },
+      { "name": "Procurement Analyst",            "description": "Creates and manages purchase requisitions" },
+      { "name": "Vendor Manager",                 "description": "Onboards and maintains vendor master data" },
+      { "name": "IT Director",                    "description": "Oversees IT operations and information security" },
+      { "name": "IT Manager",                     "description": "Manages IT engineering and support teams" },
+      { "name": "IT Security Engineer (IAM Admin)","description": "Administers the identity and access management platform" },
+      { "name": "IT Engineer",                    "description": "Manages infrastructure and systems administration" },
+      { "name": "IT Support",                     "description": "Provides Tier 1/2 helpdesk support" },
+      { "name": "HR Director",                    "description": "Oversees HR strategy, policy, and payroll governance" },
+      { "name": "HR Manager",                     "description": "Manages HR team and approves payroll/HR record changes" },
+      { "name": "HR Coordinator",                 "description": "Administers employee records and onboarding/offboarding" }
+    ]
+  },
+  "groups": [
+    { "name": "Finance",     "path": "/Finance" },
+    { "name": "Procurement", "path": "/Procurement" },
+    { "name": "IT",          "path": "/IT" },
+    { "name": "HR",          "path": "/HR" }
+  ],
+  "users": [
+    { "username": "sarah.chen",        "firstName": "Sarah",    "lastName": "Chen",        "email": "sarah.chen@northfield.local",        "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["CFO"],                             "groups": ["/Finance"] },
+    { "username": "james.okafor",      "firstName": "James",    "lastName": "Okafor",      "email": "james.okafor@northfield.local",      "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Finance Manager"],                 "groups": ["/Finance"] },
+    { "username": "priya.nandakumar",  "firstName": "Priya",    "lastName": "Nandakumar",  "email": "priya.nandakumar@northfield.local",  "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Finance Analyst"],                 "groups": ["/Finance"] },
+    { "username": "liam.tremblay",     "firstName": "Liam",     "lastName": "Tremblay",    "email": "liam.tremblay@northfield.local",     "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Finance Analyst"],                 "groups": ["/Finance"] },
+    { "username": "aisha.bello",       "firstName": "Aisha",    "lastName": "Bello",       "email": "aisha.bello@northfield.local",       "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["AP Clerk"],                        "groups": ["/Finance"] },
+    { "username": "david.kim",         "firstName": "David",    "lastName": "Kim",         "email": "david.kim@northfield.local",         "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["AP Clerk"],                        "groups": ["/Finance"] },
+    { "username": "maria.santos",      "firstName": "Maria",    "lastName": "Santos",      "email": "maria.santos@northfield.local",      "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Finance Analyst"],                 "groups": ["/Finance"] },
+    { "username": "robert.hayes",      "firstName": "Robert",   "lastName": "Hayes",       "email": "robert.hayes@northfield.local",      "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Procurement Director"],            "groups": ["/Procurement"] },
+    { "username": "nora.fitzgerald",   "firstName": "Nora",     "lastName": "Fitzgerald",  "email": "nora.fitzgerald@northfield.local",   "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Procurement Manager"],             "groups": ["/Procurement"] },
+    { "username": "karim.elsayed",     "firstName": "Karim",    "lastName": "El-Sayed",    "email": "karim.elsayed@northfield.local",     "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Procurement Analyst"],             "groups": ["/Procurement"] },
+    { "username": "wei.zhang",         "firstName": "Wei",      "lastName": "Zhang",       "email": "wei.zhang@northfield.local",         "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Procurement Analyst"],             "groups": ["/Procurement"] },
+    { "username": "olivia.martin",     "firstName": "Olivia",   "lastName": "Martin",      "email": "olivia.martin@northfield.local",     "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Vendor Manager"],                  "groups": ["/Procurement"] },
+    { "username": "tomas.rivera",      "firstName": "Tomas",    "lastName": "Rivera",      "email": "tomas.rivera@northfield.local",      "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["Procurement Analyst"],             "groups": ["/Procurement"] },
+    { "username": "jennifer.wu",       "firstName": "Jennifer", "lastName": "Wu",          "email": "jennifer.wu@northfield.local",       "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Director"],                     "groups": ["/IT"] },
+    { "username": "marcus.johnson",    "firstName": "Marcus",   "lastName": "Johnson",     "email": "marcus.johnson@northfield.local",    "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Manager"],                      "groups": ["/IT"] },
+    { "username": "fatima.haidari",    "firstName": "Fatima",   "lastName": "Haidari",     "email": "fatima.haidari@northfield.local",    "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Security Engineer (IAM Admin)"],"groups": ["/IT"] },
+    { "username": "daniel.obrien",     "firstName": "Daniel",   "lastName": "O'Brien",     "email": "daniel.obrien@northfield.local",     "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Engineer"],                     "groups": ["/IT"] },
+    { "username": "grace.park",        "firstName": "Grace",    "lastName": "Park",        "email": "grace.park@northfield.local",        "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Support"],                      "groups": ["/IT"] },
+    { "username": "samuel.adeyemi",    "firstName": "Samuel",   "lastName": "Adeyemi",     "email": "samuel.adeyemi@northfield.local",    "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Support"],                      "groups": ["/IT"] },
+    { "username": "chloe.bergeron",    "firstName": "Chloe",    "lastName": "Bergeron",    "email": "chloe.bergeron@northfield.local",    "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["IT Engineer"],                     "groups": ["/IT"] },
+    { "username": "patricia.lemoine",  "firstName": "Patricia", "lastName": "Lemoine",     "email": "patricia.lemoine@northfield.local",  "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["HR Director"],                     "groups": ["/HR"] },
+    { "username": "anthony.russo",     "firstName": "Anthony",  "lastName": "Russo",       "email": "anthony.russo@northfield.local",     "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["HR Manager"],                      "groups": ["/HR"] },
+    { "username": "mei.lin",           "firstName": "Mei",      "lastName": "Lin",         "email": "mei.lin@northfield.local",           "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["HR Coordinator"],                  "groups": ["/HR"] },
+    { "username": "yusuf.demir",       "firstName": "Yusuf",    "lastName": "Demir",       "email": "yusuf.demir@northfield.local",       "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["HR Coordinator"],                  "groups": ["/HR"] },
+    { "username": "isabella.conti",    "firstName": "Isabella", "lastName": "Conti",       "email": "isabella.conti@northfield.local",    "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["HR Coordinator"],                  "groups": ["/HR"] },
+    { "username": "brian.walsh",       "firstName": "Brian",    "lastName": "Walsh",       "email": "brian.walsh@northfield.local",       "enabled": true, "credentials": [{"type":"password","value":"Change1234!","temporary":true}], "realmRoles": ["HR Manager"],                      "groups": ["/HR"] }
+  ]
+}

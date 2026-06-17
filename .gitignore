@@ -1,0 +1,6 @@
+internal/
+answer-key-INTERNAL.md
+.claude/
+__pycache__/
+*.pyc
+

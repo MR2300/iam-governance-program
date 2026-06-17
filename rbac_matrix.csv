@@ -1,0 +1,45 @@
+RoleID,RoleName,System,Entitlement,SoD_Sensitive
+R01,CFO,FinanceERP,View Financial Reports,N
+R01,CFO,FinanceERP,Approve Payment,Y
+R02,Finance Manager,FinanceERP,View Financial Reports,N
+R02,Finance Manager,FinanceERP,Process AP Transactions,N
+R02,Finance Manager,FinanceERP,Approve Payment,Y
+R03,Finance Analyst,FinanceERP,View Financial Reports,N
+R03,Finance Analyst,FinanceERP,Process AP Transactions,N
+R04,AP Clerk,FinanceERP,Process AP Transactions,N
+R05,Procurement Director,ProcureApp,View Vendor/PO Data,N
+R05,Procurement Director,ProcureApp,Create PO Requisition,N
+R05,Procurement Director,ProcureApp,Create Vendor,Y
+R05,Procurement Director,ProcureApp,Approve PO,Y
+R06,Procurement Manager,ProcureApp,View Vendor/PO Data,N
+R06,Procurement Manager,ProcureApp,Create PO Requisition,N
+R06,Procurement Manager,ProcureApp,Approve PO,Y
+R07,Procurement Analyst,ProcureApp,View Vendor/PO Data,N
+R07,Procurement Analyst,ProcureApp,Create PO Requisition,N
+R08,Vendor Manager,ProcureApp,View Vendor/PO Data,N
+R08,Vendor Manager,ProcureApp,Create Vendor,Y
+R09,IT Director,ITSM,View Tickets,N
+R09,IT Director,ITSM,Manage Tickets,N
+R09,IT Director,ITSM,Approve Change Request,N
+R09,IT Director,Keycloak Admin Console,Manage Roles & Permissions,Y
+R10,IT Manager,ITSM,View Tickets,N
+R10,IT Manager,ITSM,Manage Tickets,N
+R10,IT Manager,ITSM,Approve Change Request,N
+R10,IT Manager,Keycloak Admin Console,Manage Users/Groups,N
+R11,IT Security Engineer (IAM Admin),Keycloak Admin Console,View Realm,N
+R11,IT Security Engineer (IAM Admin),Keycloak Admin Console,Manage Users/Groups,N
+R11,IT Security Engineer (IAM Admin),Keycloak Admin Console,Manage Roles & Permissions,Y
+R12,IT Engineer,ITSM,View Tickets,N
+R12,IT Engineer,ITSM,Manage Tickets,N
+R12,IT Engineer,Keycloak Admin Console,View Realm,N
+R13,IT Support,ITSM,View Tickets,N
+R13,IT Support,ITSM,Manage Tickets,N
+R14,HR Director,HRIS,View Employee Records,N
+R14,HR Director,HRIS,Edit Employee Records,N
+R14,HR Director,HRIS,Approve Payroll Change,N
+R14,HR Director,HRIS,Admin HRIS,N
+R15,HR Manager,HRIS,View Employee Records,N
+R15,HR Manager,HRIS,Edit Employee Records,N
+R15,HR Manager,HRIS,Approve Payroll Change,N
+R16,HR Coordinator,HRIS,View Employee Records,N
+R16,HR Coordinator,HRIS,Edit Employee Records,N

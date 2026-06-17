@@ -1,0 +1,17 @@
+RoleID,RoleName,Department,Level,Description
+R01,CFO,Finance,Director,Oversees finance department and holds final payment approval authority
+R02,Finance Manager,Finance,Manager,Manages finance operations team and approves payments up to policy threshold
+R03,Finance Analyst,Finance,IC,Performs financial reporting, reconciliation, and AP processing support
+R04,AP Clerk,Finance,IC,Processes day-to-day accounts payable transactions
+R05,Procurement Director,Procurement,Director,Oversees procurement strategy, vendor relationships, and PO approval
+R06,Procurement Manager,Procurement,Manager,Manages procurement team and approves purchase orders
+R07,Procurement Analyst,Procurement,IC,Creates and manages purchase requisitions
+R08,Vendor Manager,Procurement,IC,Onboards and maintains vendor master data
+R09,IT Director,IT,Director,Oversees IT operations and information security
+R10,IT Manager,IT,Manager,Manages IT engineering and support teams
+R11,IT Security Engineer (IAM Admin),IT,IC-Senior,Administers the identity and access management platform
+R12,IT Engineer,IT,IC,Manages infrastructure and systems administration
+R13,IT Support,IT,IC,Provides Tier 1/2 helpdesk support
+R14,HR Director,HR,Director,Oversees HR strategy, policy, and payroll governance
+R15,HR Manager,HR,Manager,Manages HR team and approves payroll/HR record changes
+R16,HR Coordinator,HR,IC,Administers employee records and onboarding/offboarding

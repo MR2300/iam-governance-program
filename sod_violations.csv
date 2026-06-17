@@ -1,0 +1,10 @@
+UserID,FullName,Department,RuleID,RuleName,RiskLevel,Detail
+F007,Maria Santos,Finance,DRIFT,Entitlement Outside Role Baseline,Medium,ProcureApp:Create PO Requisition not in baseline for R03
+P001,Robert Hayes,Procurement,SOD-02,PO Self-Approval,High,Has both ProcureApp:Create PO Requisition and ProcureApp:Approve PO
+P002,Nora Fitzgerald,Procurement,SOD-02,PO Self-Approval,High,Has both ProcureApp:Create PO Requisition and ProcureApp:Approve PO
+P005,Olivia Martin,Procurement,SOD-01,Fictitious Vendor Fraud,Critical,Has both ProcureApp:Create Vendor and FinanceERP:Approve Payment
+P005,Olivia Martin,Procurement,SOD-04,Cross-Department Finance Access,High,Non-Finance user (Procurement) holds FinanceERP:Approve Payment
+P005,Olivia Martin,Procurement,DRIFT,Entitlement Outside Role Baseline,Medium,FinanceERP:Approve Payment not in baseline for R08
+I005,Grace Park,IT,DRIFT,Entitlement Outside Role Baseline,Medium,Keycloak Admin Console:Manage Roles & Permissions not in baseline for R13
+H003,Mei Lin,HR,SOD-04,Cross-Department Finance Access,High,Non-Finance user (HR) holds FinanceERP:Approve Payment
+H003,Mei Lin,HR,DRIFT,Entitlement Outside Role Baseline,Medium,FinanceERP:Approve Payment not in baseline for R16
