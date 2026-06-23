@@ -23,19 +23,19 @@ Keycloak 26 deployed via Docker Compose with PostgreSQL backend. The `northfield
 
 **Docker Desktop — both containers running (Keycloak + PostgreSQL)**
 
-![Docker](project1_docker.png)
+![Docker](screenshots/project1_docker.png)
 
 **Keycloak — 26 users provisioned in the northfield realm**
 
-![Users](project1_users.png)
+![Users](screenshots/project1_users.png)
 
 **Keycloak — 16 realm roles across 4 departments**
 
-![Realm Roles](project1_realm%20roles.png)
+![Realm Roles](screenshots/project1_realm%20roles.png)
 
 **Keycloak — 4 department groups (Finance, HR, IT, Procurement)**
 
-![Groups](project1_groups.png)
+![Groups](screenshots/project1_groups.png)
 
 ---
 
@@ -45,7 +45,7 @@ A Python script scans all 69 entitlements across 26 users against the SoD rulese
 
 **SoD violation detection — 9 violations found across 5 users**
 
-![SoD Violations](project1_SoD%20violation.png)
+![SoD Violations](screenshots/project1_SoD%20violation.png)
 
 ### Violations Found
 
@@ -63,7 +63,7 @@ A Python script scans all 69 entitlements across 26 users against the SoD rulese
 
 **Access certification campaign — 69 entitlements reviewed, 5 revoked, 4 exceptions**
 
-![Certification Summary](project1_certification%20summary.png)
+![Certification Summary](screenshots/project1_certification%20summary.png)
 
 ---
 
@@ -73,7 +73,7 @@ A Python script scans all 69 entitlements across 26 users against the SoD rulese
 
 **Remediation execution — 4 entitlements revoked**
 
-![Remediation](project1_remediation.png)
+![Remediation](screenshots/project1_remediation.png)
 
 ### Revocations Executed
 
